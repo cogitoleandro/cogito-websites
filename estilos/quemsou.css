@@ -1,0 +1,61 @@
+@charset 'UTF-08';
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+header {
+    background-image: linear-gradient(to right, blue, rgb(94, 97, 255));
+    height: 120px;
+    font-family: cursive;
+    color: white;
+}
+header > h1 {
+    text-align: left;
+    font-size: 1.5em;
+    
+}
+header > h6 {
+    font-size: 1em;
+    text-align: end;
+    margin-top: 70px;
+
+}
+nav {
+    background-image: linear-gradient(to right, blue, rgb(94, 97, 255));
+}
+nav > a {
+    color: white;
+    padding-right: 20px;
+    text-decoration: none;
+}
+a:hover {
+    background-color: whitesmoke;
+    color: black;
+}
+main {
+    background-color: whitesmoke;
+    
+}
+article {
+    background-color: black;
+    background-image: url('../imagens/Eu1.jpg');
+    background-repeat: repeat;
+    color: white;
+    width: 90vw;
+    height: 600px;
+    display: block;
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 15px 15px 15px 15px;
+}
+footer {
+    background-image: linear-gradient(to right, blue, rgb(94, 97, 255));
+    height: 20px;
+    text-align: right;
+    font-family: cursive;
+    font-size: 0.7em;
+    font-weight: bolder;
+    color: white;
+}
