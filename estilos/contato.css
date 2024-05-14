@@ -41,7 +41,8 @@ header > p {
     color: black;
 }
 nav {
-    background-image: linear-gradient(to right, blue, rgb(94, 97, 255));
+    background-image: linear-gradient(to right, blue, whitesmoke);
+    margin-bottom: 15px;
 }
 nav > a {
     font-family: var(--fonte2);
@@ -49,7 +50,6 @@ nav > a {
     padding-right: 20px;
     padding-left: 6px;
     text-decoration: none;
-    
 }
 a:hover {
     background-color: whitesmoke;
