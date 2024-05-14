@@ -88,7 +88,7 @@ div > p {
     font-weight: bolder;
 }
 footer {
-    background-image: linear-gradient(to right, blue, rgb(94, 97, 255));
+    background-image: linear-gradient(to left, blue, rgb(94, 97, 255));
     height: 30px;
 }
 footer > p {

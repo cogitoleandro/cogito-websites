@@ -69,7 +69,7 @@ article {
     border-radius: 15px 15px 15px 15px;
 }
 footer {
-    background-image: linear-gradient(to right, blue, rgb(94, 97, 255));
+    background-image: linear-gradient(to left, blue, rgb(94, 97, 255));
     height: 20px;
 }
 footer > p {

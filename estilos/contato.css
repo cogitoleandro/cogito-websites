@@ -108,7 +108,7 @@ article {
     padding: 26px 0px 0px 5px;
 }
 footer {
-    background-image: linear-gradient(to right, blue, rgb(94, 97, 255));
+    background-image: linear-gradient(to left, blue, rgb(94, 97, 255));
     height: 20px;
 }
 footer > p {
