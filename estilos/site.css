@@ -50,7 +50,7 @@ a:hover {
 main {
     background-color: whitesmoke;
 }
-article ::-webkit-scrollbar
+::-webkit-scrollbar
 article {
     background-color: black;
     background-image: url('../imagens/fundo-site.jpg');
