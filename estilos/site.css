@@ -54,7 +54,7 @@ main {
 article {
     background-color: black;
     background-image: url('../imagens/fundo-site.jpg');
-    color: white;
+    color: black;
     width: 90vw;
     height: 600px;
     display: block;
@@ -62,6 +62,12 @@ article {
     margin-top: 5px;
     margin-bottom: 5px;
     border-radius: 15px 15px 15px 15px;
+    }
+article > p {
+    padding: 0px 50px 5px 50px;
+    text-align: justify;
+    font-family: var(--fonte2);
+    font-weight: bolder;
 }
 footer {
     background-image: linear-gradient(to right, blue, rgb(94, 97, 255));
