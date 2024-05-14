@@ -41,7 +41,6 @@ nav > a {
     padding-right: 20px;
     padding-left: 6px;
     text-decoration: none;
-    
 }
 a:hover {
     background-color: whitesmoke;
@@ -51,6 +50,7 @@ a:hover {
 main {
     background-color: whitesmoke;
 }
+article ::-webkit-scrollbar
 article {
     background-color: black;
     background-image: url('../imagens/fundo-site.jpg');
@@ -62,7 +62,8 @@ article {
     margin-top: 5px;
     margin-bottom: 5px;
     border-radius: 15px 15px 15px 15px;
-    }
+    border-style: solid;
+}
 article > p {
     padding: 0px 50px 5px 50px;
     text-align: justify;
