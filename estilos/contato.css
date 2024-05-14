@@ -42,7 +42,7 @@ header > p {
 }
 nav {
     background-image: linear-gradient(to right, blue, whitesmoke);
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 }
 nav > a {
     font-family: var(--fonte2);
@@ -60,26 +60,29 @@ main {
     background-color: whitesmoke;
 }
 article {
-    background-color: black;
     background-image: url('../imagens/fundo-site.jpg');
-    color: white;
     width: 90vw;
-    display: block;
     margin: auto;
-    margin-top: 5px;
-    margin-bottom: 5px;
+    color: whitesmoke;
     border-radius: 15px 15px 15px 15px;
-    border: solid black;
-    padding: 10px 10px 10px 10px;
+        
+}
+#formulario {
+    background-image: linear-gradient(to left, blue, white);
+    width: 51%;
+    margin: auto;
+    margin: 10px 25px 10px 20px;
+    border-radius: 15px 15px 15px 15px;
+    display: inline-block;
 }
 #cartao {
-    background-image: linear-gradient(to left, blue, rgb(100, 100, 206));
-    width: 300px;
-    height: 150px;
-    border: solid black 0.5px;
-    color: whitesmoke;
-    font-weight: bolder;
-    margin: 10px 50px 50px 10px;
+    background-image: linear-gradient(to left, blue, whitesmoke);
+    width: 40%;
+    margin: auto;
+    margin: 10px 10px 10px 30px;
+    padding: 5px 5px 5px 0px;
+    border-radius: 10px 10px 10px 10px;
+    display: inline-block;
 }
 #marcaa {
     font-family: var(--fonte2);
@@ -103,11 +106,12 @@ article {
     padding: 26px 0px 0px 0px;
 }
 #id {
+    color: black;
     font-family: var(--fonte2);
     font-size: 10px;
     font-weight: bolder;
     text-align: left;
-    padding: 26px 0px 0px 5px;
+    padding: 26px 0px 0px 2px;
 }
 footer {
     background-image: linear-gradient(to left, blue, rgb(94, 97, 255));
