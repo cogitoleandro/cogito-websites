@@ -19,7 +19,46 @@
     </nav>
     <main>
         <article>
-            
+            <div id="cartao">
+                <p id="marca">™Cogito</p>
+                <p id="negocio">WebSites</p>
+                <p id="body">Consultorias e Desenvolvimento Web</p>
+                <p id="id">Estudante de Tecnologia da informação<br>
+                    Leandro Viegas França <br>
+                    tel: (11) 99451-6299 <br>
+                    e-mail: leandroviegasfranca@outlook.com
+                    
+                </p>
+            </div>
+            <div id="formulario">
+                <p>
+                    <form action="cadastro.php" method="get" autocomplete="on" style="margin: 0px 0px 0px 0px;">
+                        <fieldset>
+                            <legend>Dados pessoais</legend>
+                            <p style="padding: 30px 0px 10px 5px;">
+                                <label style="padding-right: 12px;" for="inome">Nome: </label>
+                                <input type="text" name="nome" id="inome" size="50" required>
+                            </p>
+                            <p style="padding: 5px 0px 10px 5px;">
+                                <label style="padding-right: 9px;" for="iemail">E-mail: </label>
+                                <input type="email" name="email" id="iemail" required size="50">
+                            </p>
+                            <p style="padding: 5px 0px 10px 5px;">
+                                <label for="itel">Telefone: </label>
+                                <input type="tel" name="tel" id="itel" autocomplete="tel" pattern="^\d{(2)} \d{5}-\d{4}$" placeholder="xx xxxxx-xxxx" size="12" required>
+                            </p>
+                            <p>
+                                <label style="padding-left: 5px;" for="imsg">Mensagem: </label> <br>
+                                <textarea style="margin: 10px;" name="msg" id="imsg" cols="50" rows="20"></textarea>
+                            </p>
+                            <p style="padding: 5px 0px 10px 0px; text-align: center; font-family: --fonte2; font-weight: bolder;">
+                                <input type="submit" value="Enviar" style="margin-right: 50px;">
+                                <input type="reset" value="Limpar">
+                            </p>
+                        </fieldset>
+                    </form>
+                </p>
+            </div>
         </article>
     </main>
     <footer>

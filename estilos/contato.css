@@ -56,12 +56,61 @@ article {
     background-image: url('../imagens/fundo-site.jpg');
     color: white;
     width: 90vw;
-    height: 600px;
     display: block;
     margin: auto;
     margin-top: 5px;
     margin-bottom: 5px;
     border-radius: 15px 15px 15px 15px;
+    border: solid black;
+    padding: 10px 10px 10px 10px;
+}
+#cartao {
+    background-image: linear-gradient(to left, blue, rgb(100, 100, 206));
+    width: 300px;
+    height: 150px;
+    border: solid black 0.5px;
+    color: whitesmoke;
+    font-weight: bolder;
+    margin: 10px 50px 50px 10px;
+}
+#marca {
+    font-family: var(--fonte2);
+    font-size: 8.5px;
+    font-weight: bolder;
+    text-align: right;
+    padding: 0px 5px 0px 0px;
+}
+#negocio {
+    font-family: var(--fonte2);
+    font-size: 15px;
+    font-weight: bolder;
+    text-align: right;
+    padding: 0px 5px 0px 0px;
+}
+#body {
+    font-family: var(--fonte2);
+    font-size: 15px;
+    font-weight: bolder;
+    text-align: center;
+    padding: 26px 0px 0px 0px;
+}
+#id {
+    font-family: var(--fonte2);
+    font-size: 10px;
+    font-weight: bolder;
+    text-align: left;
+    padding: 26px 0px 0px 5px;
+    
+}
+
+#formulario {
+    background-image: linear-gradient(to left, blue, rgb(100, 100, 206));
+    width: 420px;
+    border: solid black 0.5px;
+    color: whitesmoke;
+    font-family: var(--fonte2);
+    font-weight: bolder;
+    margin: 10px 50px 50px 10px;
 }
 footer {
     background-image: linear-gradient(to right, blue, rgb(94, 97, 255));
