@@ -109,14 +109,15 @@ article {
 }
 footer {
     background-image: linear-gradient(to left, blue, rgb(94, 97, 255));
-    height: 20px;
+    height: 30px;
+    margin-top: 10px;
 }
 footer > p {
     text-align: right;
     font-family: var(--fonte2);
-    font-size: 0.7em;
+    font-size: 0.8em;
     font-weight: bolder;
     color: white;
-    padding-top: 5px;
+    padding-top: 6px;
     padding-right: 6px;
 }

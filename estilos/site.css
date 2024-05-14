@@ -12,7 +12,7 @@
     padding: 0px;
 }
 header {
-    background-image: linear-gradient(to right, blue, rgb(94, 97, 255));
+    background-image: linear-gradient(to right, blue, whitesmoke);
     height: 120px;
     font-family: var(--fonte2);
     color: white;
@@ -30,15 +30,18 @@ header > h1 {
     margin-top: 50px;
     padding-right: 49px;
     font-weight: bolder;
+    color: black;
 }
 header > p {
     font-size: 1.2em;
     text-align: right;
     padding-right: 6px;
     font-weight: bolder;
+    color: black;
 }
 nav {
-    background-image: linear-gradient(to right, blue, rgb(94, 97, 255));
+    background-image: linear-gradient(to right, blue, whitesmoke);
+    margin-bottom: 15px;
 }
 nav > a {
     font-family: var(--fonte2);
@@ -53,43 +56,68 @@ a:hover {
     font-weight: bolder;
 }
 main {
-    background-color: whitesmoke;
+    background-image: url('../imagens/fundo-site.jpg');
 }
 article {
-    background-color: black;
-    background-image: url('../imagens/fundo-site.jpg');
-    color: black;
+    background-color: blue;
     width: 90vw;
-    display: block;
     margin: auto;
-    margin-top: 5px;
-    margin-bottom: 5px;
+    color: whitesmoke;
     border-radius: 15px 15px 15px 15px;
-    border-style: solid;
-    padding: 0px 10px 10px 10px;
+    
+    
+    
 }
 article > p {
-    padding: 26px 0px 20px 0px;
+    padding: 26px 0px 50px 0px;
     text-align: center;
     font-family: var(--fonte2);
     font-size: 1em;
     font-weight: bolder;
 }
-div {
-    width: 50%;
+div.video {
+    background-color: blue;
+    padding-bottom: 57%;
+    position: relative;
+    margin: auto;
+    border-radius: 15px 15px 15px 15px;
     
-    padding-top: 10px;
+    
+}
+div.video > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    right: 5%;
+    bottom: 5%;
+    width: 90%;
+    height: 90%;
+    border-radius: 15px 15px 15px 15px;
+
+}
+div {
+    background-color: blue;
+    width: 95%;
+    margin: auto;
+    margin-bottom: 15px;
+    border-radius: 15px 15px 15px 15px;
+   
 }
 div > p {
-    padding: 0px 10px 5px 20px;
+    padding: 10px 10px 0px 10px;
     text-align: justify;
     font-family: var(--fonte2);
     font-size: 0.8em;
     font-weight: bolder;
+    color: whitesmoke;
+}
+#fim {
+    padding-bottom: 15px;
 }
 footer {
     background-image: linear-gradient(to left, blue, rgb(94, 97, 255));
     height: 30px;
+    margin-top: 10px;
 }
 footer > p {
     text-align: right;
