@@ -67,13 +67,21 @@ article {
         
 }
 #escrito {
-    background-image: linear-gradient(to right, blue, whitesmoke);
-    max-width: 450px;
+    background-image: linear-gradient(to right, blue, rgb(126, 120, 216));
+    width: 90%;
     margin: auto;
     margin: 0px 25px 10px 35px;
     padding: 5px 5px 5px 10px;
     border-radius: 15px 15px 15px 15px;
-    display: inline-block;
+    font-family: var(--fonte2);
+    font-size: 0.8em;
+    text-align: justify;   
+}
+p.txt {
+    padding-bottom: 10px;
+}
+#ass {
+    padding: 5px 0px 10px 0px;
 }
 #video {
     background-image: url('../imagens/fundo-site.jpg');
