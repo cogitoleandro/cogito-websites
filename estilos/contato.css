@@ -68,18 +68,45 @@ article {
         
 }
 #formulario {
-    background-image: linear-gradient(to left, blue, white);
-    width: 51%;
+    background-image: linear-gradient(to right, blue, white);
+    max-width: 450px;
     margin: auto;
-    margin: 10px 25px 10px 20px;
+    margin: 10px 25px 10px 5px;
+    padding: 5px 5px 5px 10px;
     border-radius: 15px 15px 15px 15px;
     display: inline-block;
 }
+form {
+    font-family: var(--fonte2);
+    font-weight: bolder;
+    font-size: 0.7em;
+}
+#inome {
+    margin: 5px 10px 10px 12px;
+}
+#itel {
+    margin: 0px 0px 10px 0px;
+}
+#iemail {
+    margin: 0px 0px 10px 8px;
+}
+#imsg {
+    margin: 10px 10px 5px 10px;
+}
+#botao{
+    background-image: linear-gradient(to right, blue, whitesmoke);
+    font-family: var(--fonte2);
+    text-align: left;
+    padding-bottom: 15x;
+}
+#enviar {
+    margin: 0px 20px 0px 10px;
+}
 #cartao {
     background-image: linear-gradient(to left, blue, whitesmoke);
-    width: 40%;
+    width: 350px;
     margin: auto;
-    margin: 10px 10px 10px 30px;
+    margin: 10px 5px 10px 10px;
     padding: 5px 5px 5px 0px;
     border-radius: 10px 10px 10px 10px;
     display: inline-block;

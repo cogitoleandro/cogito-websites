@@ -41,7 +41,7 @@ header > p {
 }
 nav {
     background-image: linear-gradient(to right, blue, whitesmoke);
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 }
 nav > a {
     font-family: var(--fonte2);
@@ -56,17 +56,14 @@ a:hover {
     font-weight: bolder;
 }
 main {
-    background-image: url('../imagens/fundo-site.jpg');
+    background-color: whitesmoke;
 }
 article {
-    background-color: blue;
+    background-image: url('../imagens/fundo-site.jpg');
     width: 90vw;
     margin: auto;
-    color: whitesmoke;
+    color: black;
     border-radius: 15px 15px 15px 15px;
-    
-    
-    
 }
 article > p {
     padding: 26px 0px 50px 0px;
@@ -81,8 +78,6 @@ div.video {
     position: relative;
     margin: auto;
     border-radius: 15px 15px 15px 15px;
-    
-    
 }
 div.video > iframe {
     position: absolute;
@@ -96,7 +91,7 @@ div.video > iframe {
 
 }
 div {
-    background-color: blue;
+    background-image: url('../imagens/fundo-site.jpg');
     width: 95%;
     margin: auto;
     margin-bottom: 15px;
@@ -109,7 +104,8 @@ div > p {
     font-family: var(--fonte2);
     font-size: 0.8em;
     font-weight: bolder;
-    color: whitesmoke;
+    color: black;
+    text-shadow: 1px;
 }
 #fim {
     padding-bottom: 15px;
