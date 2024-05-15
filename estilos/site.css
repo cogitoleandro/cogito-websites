@@ -91,6 +91,14 @@ div.video > iframe {
     border-radius: 15px 15px 15px 15px;
 
 }
+#midia > a {
+    font-family: var(--fonte2);
+}
+a:hover {
+    background-color: blue;
+    color: whitesmoke;
+    font-weight: bolder;
+}
 div {
     background-image: url('../imagens/fundo-site.jpg');
     width: 95%;
