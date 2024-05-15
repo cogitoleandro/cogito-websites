@@ -20,7 +20,7 @@ header {
 }
 header > h1 {
     text-align: left;
-    font-size: 1.3em;
+    font-size: 0.6em;
     padding-left: 6px;
     padding-top: 20px;
     
@@ -73,48 +73,10 @@ article > p {
     font-size: 1em;
     font-weight: bolder;
 }
-div.video {
-    background-color: blue;
-    padding-bottom: 57%;
-    position: relative;
-    margin: auto;
-    border-radius: 15px 15px 15px 15px;
-}
-div.video > iframe {
-    position: absolute;
-    top: 5%;
-    left: 5%;
-    right: 5%;
-    bottom: 5%;
-    width: 90%;
-    height: 90%;
-    border-radius: 15px 15px 15px 15px;
-
-}
-div {
-    background-image: url('../imagens/fundo-site.jpg');
-    width: 95%;
-    margin: auto;
-    margin-bottom: 15px;
-    border-radius: 15px 15px 15px 15px;
-   
-}
-div > p {
-    padding: 10px 10px 0px 10px;
-    text-align: justify;
-    font-family: var(--fonte2);
-    font-size: 0.8em;
-    font-weight: bolder;
-    color: black;
-    text-shadow: 1px;
-}
-#fim {
-    padding-bottom: 15px;
-}
 footer {
     background-image: linear-gradient(to left, blue, rgb(94, 97, 255));
     height: 30px;
-    margin-top: 5px;
+    margin-top: 3px;
 }
 footer > p {
     text-align: right;
@@ -124,4 +86,4 @@ footer > p {
     color: white;
     padding-top: 6px;
     padding-right: 6px;
-} 
+}
