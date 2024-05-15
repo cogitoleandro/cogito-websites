@@ -41,7 +41,7 @@ header > p {
 }
 nav {
     background-image: linear-gradient(to right, blue, whitesmoke);
-    margin-bottom: 15px;
+    margin-bottom: 5px;
 }
 nav > a {
     font-family: var(--fonte2);
@@ -59,21 +59,45 @@ main {
     background-color: whitesmoke;
 }
 article {
-    background-color: black;
     background-image: url('../imagens/fundo-site.jpg');
-    color: white;
     width: 90vw;
-    height: 600px;
-    display: block;
     margin: auto;
-    margin-top: 5px;
-    margin-bottom: 5px;
+    color: whitesmoke;
     border-radius: 15px 15px 15px 15px;
+        
+}
+#escrito {
+    background-image: linear-gradient(to right, blue, white);
+    max-width: 450px;
+    margin: auto;
+    margin: 0px 25px 10px 5px;
+    padding: 5px 5px 5px 10px;
+    border-radius: 15px 15px 15px 15px;
+    display: inline-block;
+}
+#video {
+    background-image: url('../imagens/fundo-site.jpg');
+    padding-bottom: 57%;
+    position: relative;
+    margin: auto;
+    border-radius: 15px 15px 15px 15px;
+    
+}
+#video > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    right: 5%;
+    bottom: 5%;
+    width: 90%;
+    height: 90%;
+    border-radius: 15px 15px 15px 15px;
+
 }
 footer {
     background-image: linear-gradient(to left, blue, rgb(94, 97, 255));
     height: 30px;
-    margin-top: 10px;
+    margin-top: 3px;
 }
 footer > p {
     text-align: right;
