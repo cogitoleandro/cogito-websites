@@ -56,18 +56,34 @@ article {
     border-radius: 10px 10px 10px 10px;
 }
 div.box {
-    width: 235px;
-    height: 195px;
+    width: 135px;
+    height: 190px;
     display: inline-block;
-    margin: 2px 1px 2px 3px;
+    margin: 2px 15px 2px 10px;
 }
-#red {
-    background-color: red;
-    background-image: url(../imagens/bone-cia.jpg);
+#foto1 {
+    background-image: url('../imagens/eu-7.jpg');
 }
-#blue {
+#foto2 {
+    background-image: url('../imagens/eu-1.jpg');
+}
+#foto3 {
+    background-image: url('../imagens/mel-1.jpg');
+}
+#foto4 {
+    background-image: url('../imagens/eu-6.jpg');
+}
+#foto5 {
     background-color: blue;
-    background-image: url('../imagens/Eu1.jpg');
+    background-image: url('../imagens/eu-5.jpg');
+}
+#foto6 {
+    background-color: blue;
+    background-image: url('../imagens/quintal-externo.jpg');
+}
+#foto7 {
+    background-color: blue;
+    background-image: url('../imagens/eu-3.jpg');
 }
 footer {
     background-image: linear-gradient(to left, blue, rgb(94, 97, 255));
