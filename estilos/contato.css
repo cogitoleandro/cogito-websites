@@ -97,6 +97,7 @@ form {
 }
 #imsg {
     margin: 10px 10px 5px 10px;
+    font-weight: bolder;
 }
 #botao{
     background-image: linear-gradient(to right, blue, whitesmoke);
