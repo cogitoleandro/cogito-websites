@@ -1,0 +1,139 @@
+@charset 'UTF-08';
+
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap');
+
+:root {
+    --fonte1: 'Gloria Hallelujah', cursive;
+    --fonte2: 'Comic Neue', cursive;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+header {
+    background-color: red;
+    font-family: var(--fonte2);
+}
+header > h1 {
+    text-align: right;
+    font-size: 2em;
+    padding-right: 10px;
+    padding-top: 20px;
+    box-shadow: 35px 15px 30px black;
+    color: white;
+    
+}
+#marca {
+    font-size: 0.6em;
+    text-align: right;
+    margin-top: 30px;
+    padding-right: 49px;
+    font-weight: bolder;
+    color: white;
+}
+header > p {
+    font-size: 1.2em;
+    text-align: right;
+    padding-right: 6px;
+    font-weight: bolder;
+    color: whitesmoke;
+}
+header > p > a{
+    color: white;
+    text-decoration: solid;
+}
+header > p > a:hover{
+    background-color: white;
+    color: black;
+}
+nav {
+    background-color: red;
+    text-align: left;
+    padding-left: 50px;
+}
+nav > a{
+    font-family: var(--fonte2);
+    font-weight: bolder;
+    color: white;
+    text-decoration: solid;
+    
+}
+nav > a:hover {
+    background-color: white;
+    color: black;
+    text-decoration: none;
+}
+main {
+    margin-top: 2px;
+    background-color: white;
+    
+}
+article {
+    width: 95%;
+    margin: auto;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 5px 5px 5px black;
+    background-color: white;
+    
+    
+}
+section#fotos {
+    text-align: center;
+    padding-top: 20px;
+}
+section#fotos img {
+    width: 100px;
+    margin: 0px 50px 50px 50px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px black;
+}
+section#fotos img:hover {
+    border: 2px solid black;
+    transform: translate(10px, -1px);
+    transition: transform .1s;
+}
+#div {
+    width: 50%;
+    height: 250px;
+    margin: auto;
+    background-color: white;
+    color: black;
+    font-family: var(--fonte2);
+    font-size: 12px;
+    font-weight: bolder;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    box-shadow: 3px 3px 3px black;
+    text-align: left;
+}
+#saud {
+    margin-bottom: 20px;
+}
+#agrad {
+    text-align: left;
+    margin-top: 50px;
+}
+footer {
+    background-color: red;
+    height: 30px;
+    margin-top: 2px;
+}
+footer > p {
+    text-align: right;
+    font-family: var(--fonte2);
+    font-size: 0.8em;
+    font-weight: bolder;
+    color: white;
+    padding-top: 6px;
+    padding-right: 6px;
+}
+footer > p > a {
+    color: white;
+    text-decoration: solid;
+}
+footer a:hover {
+    background-color: white;
+    color: black;
+} 

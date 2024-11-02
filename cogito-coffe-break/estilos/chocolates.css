@@ -1,0 +1,150 @@
+@charset 'UTF-08';
+
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap');
+
+:root {
+    --fonte1: 'Gloria Hallelujah', cursive;
+    --fonte2: 'Comic Neue', cursive;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+header {
+    background-color: red;
+    font-family: var(--fonte2);
+}
+header > h1 {
+    text-align: right;
+    font-size: 2em;
+    padding-right: 10px;
+    padding-top: 20px;
+    box-shadow: 35px 15px 30px black;
+    color: white;
+    
+}
+#marca {
+    font-size: 0.6em;
+    text-align: right;
+    margin-top: 30px;
+    padding-right: 49px;
+    font-weight: bolder;
+    color: white;
+}
+header > p {
+    font-size: 1.2em;
+    text-align: right;
+    padding-right: 6px;
+    font-weight: bolder;
+    color: whitesmoke;
+}
+header > p > a{
+    color: white;
+    text-decoration: solid;
+}
+header > p > a:hover{
+    background-color: white;
+    color: black;
+}
+nav {
+    background-color: red;
+    text-align: left;
+    padding-left: 50px;
+}
+nav > a{
+    font-family: var(--fonte2);
+    font-weight: bolder;
+    color: white;
+    text-decoration: solid;
+    
+}
+nav > a:hover {
+    background-color: white;
+    color: black;
+    text-decoration: none;
+}
+main {
+    margin-top: 2px;
+    background-color: white;
+    
+}
+article {
+    width: 95%;
+    margin: auto;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 5px 5px 5px black;
+    background-color: white;
+}
+article > div {    
+    width: 100%;
+    margin: auto;
+    
+}
+div > p {
+    font-family: var(--fonte2);
+    font-size: 1.5;
+    font-weight: bolder;
+    text-align: left;
+    padding: 35px 0px 20px 15px;
+    color: black;
+}
+section#menu {
+    text-align: left;
+    padding-top: 50px;
+    font-family: var(--fonte2);
+    font-weight: bolder;
+    font-size: 12px;
+    
+}
+section#menu img {
+    width: 30px;
+    margin: 0px 0px 15px 10px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px black;
+}
+section#menu img:hover {
+    border: 2px solid black;
+    transform: translate(10px, -1px);
+    transition: transform .3s;
+}
+section#fotos {
+    text-align: center;
+    padding-top: 20px;
+}
+section#fotos img {
+    width: 100px;
+    height: 150px;
+    margin: 0px 50px 50px 50px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px black;
+}
+section#fotos img:hover {
+    border: 2px solid black;
+    transform: translate(10px, -1px);
+    transition: transform .1s;
+}
+
+footer {
+    background-color: red;
+    height: 30px;
+    margin-top: 2px;
+}
+footer > p {
+    text-align: right;
+    font-family: var(--fonte2);
+    font-size: 0.8em;
+    font-weight: bolder;
+    color: white;
+    padding-top: 6px;
+    padding-right: 6px;
+}
+footer > p > a {
+    color: white;
+    text-decoration: solid;
+}
+footer a:hover {
+    background-color: white;
+    color: black;
+} 

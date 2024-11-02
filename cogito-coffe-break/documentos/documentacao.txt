@@ -1,0 +1,31 @@
+Osasco, 15 de maio de 2024.
+
+Da ideia,
+
+   Há tempo pensava em desenvolver como treino de desenvolvimento web essa ideia a qual como sempre iria apenas treinar desenvolvimento web, no entanto, como a faria por que não customizaria? 
+Seguindo minha ideologia é o que pretendo fazer, buscar fornecedores (fontes) e vender produtos em casa, com uma forma de solicitar o que querem e, eu levo em casa, um delivery no início 
+apenas refrigerantes, chocolates, uma ou outra coisa, será interessante no sentido de fazer cadastros neste caso produtos gerar pedidos e disparar notificações neste caso, pedidos de pessoas que
+não precisarão mais sair de suas casas na hora de comprar um refrigerante para almoçar por exemplo, já fiz muito isso, assim de fato a tecnologia é para nos ajudar, tornar mais cômodo e fácil 
+nossos afazeres diários. Como não é muito dinheiro para iniciar, penso e, talvez isso farei, assim conciliando uma e outra coisa.
+
+   Em breve ganhará vida a ideia por meio de um treino do meu mais novo aprendizado tecnologia da informação que me dedico quando dá, a mais de 1 ano, já é possível desenvolver algumas coisas e, 
+é exatamente aí que aprenderei de verdade. Neste exercício será interessante no sentido de cadastrar, selecionar e compor lista de itens, neste caso alguns produtos que se vender, os terei aqui!
+
+  Tela prinicipal, apenas o layout e um menu para acessar os doces e penso alguns salgados (lanches, refrigerantes ...)
+
+   Tela de doces ao abrir apenas o layout do article muda assim o site continua igual em seu contexto, na tela de doces terá duas div, uma com fotos e respectivos valores e a outra será elaborada da 
+   seguinte forma: Nome do produto, quantidade (então gerará o valor resultante automaticamente), seguido de campos para inserir nome, telefone e endereço para entregas, o conteúdo será direcionado
+   ao seu responsável neste caso eu, no e-mail.
+
+
+  Também penso em disponibilizar um vídeo com a rota do processo, produtos de onde vêm, aqueles que eu preparo, então como é preparado até então ser de fato consumido por todos aqueles que 
+comprarem ...
+   - Nesse sentido entrei em contato com o Hortifrutti e se autorizarem irei documentar a autorização e então após as filmagens o disponibilazrei na internet, todo o site e nele o que se tem seguirá
+padrões legais e vigentes nesta sociedade, uma regra e norma não violável do cogito.
+
+
+
+
+Atenciosamente,
+Leandro Viegas França
+Estudante de tecnologia da informação

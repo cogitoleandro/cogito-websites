@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cogito Doces</title>
+    <link rel="shortcut icon" href="imagens/fav-logo.ico" type="image/x-icon">
+    <link rel="stylesheet" href="estilos/pedido.css">
+</head>
+<body>
+    <header>
+        <h1>Delivery Doces, sucos e lanches</h1>
+        <p id="marca"><a href="https://cogitoleandro.github.io/cogito-websites" target="_blank">™Cogito</a><br>            <p><a href="https://cogitoleandro.github.io/cogito-websites" target="_blank">WebSites</a></p>
+    </header>
+    <nav>
+        <a href="index.html">Voltar a Principal</a>
+    </nav>
+    <main>
+        <article>
+            <div id="tabpreco">
+                <p id="int">No momento, são estes os chocolates, lanches e sucos com os quais estamos trabalhando, em breve o menu terá mais opções visando melhor atender e satisfazer o prazer do seu paladar.</p>
+                <p>Será recebido com muito respeito e apreciada toda critica, sugestão ou elogio, razão do espaço aberto para mensagens.</p>
+                <p>Observação: O valor do seu pedido será acrescido de R$ 5,00 reais referentes a entrega.</p>
+                <p>Agradecemos a preferência.</p>
+                <p id="agradecimento">Grato, <br>Cogito Doces</p>
+            </div>
+            <div id="form">
+               <form action="https://formsubmit.co/leandroviegasfranca@outlook.com" method="post">
+                    <fieldset>
+                        <legend>Dados Pessoais</legend>
+                            <input type="text" name="nome" id="inome" placeholder="Nome ou Apelido" size="60" required> <br>
+                            <input type="text" name="endereco" id="iendereco" placeholder="Rua, avenida" size="50" required> <br>
+                            <input type="text" name="endnum" id="iendnum" placeholder="Nº" size="5" required> <br>
+                            <input type="tel" name="tel" id="itel" placeholder="Nº Telefone" size="15" required>
+                    </fieldset>
+                    <fieldset id="qtd">
+                        <p>
+                            <label for="iped" style="margin-top: 10px;">Faça seu pedido em 15 minutos chegará em seu endereço: </label> <br>
+                            <textarea name="pedido" id="iped"></textarea>
+                        </p>
+                        <p>
+                            <label for="imsg" style="margin-top: 10px;">Sugestões, critícas e elogios: </label> <br>
+                            <textarea name="msg" id="imsg"></textarea>
+                        </p>
+                        <p>
+                            <input type="submit" value="Enviar" id="enviar">
+                            <input type="reset" value="Limpar" id="limpar">
+                            <input type="hidden" name="_subject" value="Novo Contanto">
+                            <input type="text" name="_honey" style="display:none;">
+                            <input type="hidden" name="_captcha" value="false">
+                            <input type="hidden" name="_next" value="https://cogitoleandro.github.io/cogito-doces-salgados/thank-you.html">
+                        </p>
+                    </fieldset>
+                </form>
+            </div>
+        </article>
+    </main>
+    <footer>
+        <p>Site desenvolvido <a href="https://cogitoleandro.github.io/cogito-websites" target="_blank">™Cogito WebSites</a></p>
+    </footer>
+</body>
+</html>
