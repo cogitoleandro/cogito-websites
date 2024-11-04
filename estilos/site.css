@@ -22,13 +22,16 @@ header > h1 {
     text-align: left;
     font-size: 1.3em;
     padding-left: 6px;
-    padding-top: 20px;
+    padding-top: 10px;
     
+}
+h1#xy{
+    padding: 0px 0px 0px 6px;
 }
 #marca {
     font-size: 0.6em;
     text-align: right;
-    margin-top: 50px;
+    margin-top: 40px;
     padding-right: 49px;
     font-weight: bolder;
     color: black;
