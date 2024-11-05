@@ -50,7 +50,7 @@ nav {
 nav > a {
     font-family: var(--fonte2);
     color: white;
-    padding-right: 20px;
+    padding-right: 15px;
     padding-left: 6px;
     text-decoration: none;
 }
